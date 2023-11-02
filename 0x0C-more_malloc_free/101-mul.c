@@ -54,10 +54,12 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
 	}
-	if (addrem)
-	{
-		return (NULL);
-	}
+	/**
+	 * if (addrem)
+	*{
+		*return (NULL);
+	*}
+	**/
 	return (dest);
 }
 
